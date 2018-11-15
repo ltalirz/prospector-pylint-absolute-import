@@ -1,2 +1,0 @@
-prospector==1.4.1
-tzlocal
