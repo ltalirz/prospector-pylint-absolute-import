@@ -1,6 +1,8 @@
 # prospector pylint absolute import
 
-This repo demonstrates an issue of prospector with pylint
+This repo demonstrates an issue of prospector with pylint related to relative/absolute imports.
+
+Use case: Your package wants to import another package `tzlocal` and also contains a file `tzlocal.py`.
 
 ## Installation
 ```bash
