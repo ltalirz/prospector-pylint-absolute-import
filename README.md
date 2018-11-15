@@ -3,7 +3,7 @@
 This repo demonstrates an issue of prospector with pylint
 
 ## Installation
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -15,13 +15,13 @@ pip install -r requirements.txt
  * pylint 1.9.3
  * prospector 0.12.11
 
-```python
+```bash
 pylint pkg/file1.py      # imports tzlocal package and does not complain
 prospector pkg/file1.py  # imports tzlocal.py module and complains
 ```
 
 Note:
-```python
+```bash
 python pkg/file1.py     # will use tzlocal.py module and fail
 
 cd pkg
@@ -35,7 +35,7 @@ pylint file1.py         # imports tzlocal.py module and complains
  * pylint 2.1.1
  * prospector .1.1.3
 
-```python
+```bash
 pylint pkg/file1.py      # imports tzlocal.py module and complains
 prospector pkg/file1.py  # imports tzlocal.py module and complains
 ```
