@@ -6,7 +6,7 @@ Use case: Your package wants to import another package `tzlocal` and also contai
 
 ## Installation
 ```bash
-pip install -r requirements.txt
+pip install tzlocal
 ```
 
 ## Problem
